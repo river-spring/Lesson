@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-bottom;
+}
+main {
+	width: 960px;
+	margin:0 auto;
+	padding:50px 0;
+}
+.main-list {
+	list-style: none;
+	padding-bottom: 50px;
+}
+li {
+	display: inline-block;
+	width: 100%;
+	padding: 20px 0 20px 20px;
+}
+li:nth-child(odd) {
+	background-color: #eeeeee;
+}
+.box {
+	width: 30%;
+	height: 200px;
+	margin-right:5%;
+	margin-bottom: 40px;
+	float: left;
+}
+.box:nth-child(3n) {
+	margin-right: 0;
+}
+.orenge {
+	background-color: #ff8c00;
+}
+.yellow {
+	background-color: #ffd700;
+}
